@@ -1,6 +1,8 @@
 # Vietnamese Cuisine (The Adventure of Tastes)
 
-## Quick Setup
+Production URL: [https://vn-cuisine.herokuapp.com](https://vn-cuisine.herokuapp.com)
+
+## Quick Development Setup
 * [Install Git](https://www.atlassian.com/git/tutorials/install-git)
 * Clone the repository from the command line: `git clone https://github.com/anhtuyet1308/vietnamese-cuisine.git`
 * Move to the project's root directory: `cd vietnamese-cuisine`
