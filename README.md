@@ -1,5 +1,12 @@
 # Vietnamese Cuisine (The Adventure of Tastes)
 
+## Quick Setup
+* [Install Git](https://www.atlassian.com/git/tutorials/install-git)
+* Clone the repository from the command line: `git clone https://github.com/anhtuyet1308/vietnamese-cuisine.git`
+* Move to the project's root directory: `cd vietnamese-cuisine`
+* Install dependences: `npm install`
+* Run the development server: `npm start`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
