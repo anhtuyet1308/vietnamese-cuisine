@@ -1,0 +1,137 @@
+img:not(.main-img) {
+  border-radius: 5px;
+  max-height: 600px;
+}
+.main-img {
+  border-radius: 5px;
+  
+}
+a:not(.source-link) {
+  color: inherit;
+  text-decoration: none;
+}
+.source-link {
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(90deg, #c4e8c4, #95d895);
+  height: 60px;
+  box-shadow: 0 0 8px #161616;
+  z-index: 1;
+}
+.app-name {
+  display: inline-block;
+  font-size: 20px;
+  transform: translateY(-17px);
+}
+header .nav-tabs {
+  display: inline-block;
+  float: right;
+  margin-right: 50px;
+}
+.nav-tabs div {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0 10px;
+  transform: translateY(7px);
+  cursor: pointer;
+}
+.nav-tabs div:hover {
+  border-bottom: solid 3px;
+}
+.selected {
+  border-bottom: solid 3px;
+}
+#up-icon {
+  font-size: 35px;
+  transform: translateY(12px);
+  cursor: pointer;
+}
+
+.divider {
+  height: 100px;
+}
+
+.left-col {
+  display: inline-block;
+  width: 335px;
+  padding: 30px;
+}
+.left-col img {
+  width: 335px;
+  height: 335px;
+  margin-bottom: 10px;
+}
+.left-col section {
+  margin-bottom: 50px;
+}
+.left-col section h2 {
+  text-align: center;
+}
+
+.main-content {
+  display: inline-block;
+  /*width: calc(100% - 475px);*/
+  width: calc(100% - 1000px);
+  vertical-align: top;
+  padding: 30px;
+  float: right;
+  transform: translateX(-350px);
+}
+.main-content > h1 {
+  text-align: center;
+  font-size: 3em;
+}
+.main-content img {
+  width: 100%;
+}
+.main-content p {
+  font-size: 22px;
+}
+
+.app-logo {
+  animation: app-logo-spin infinite 20s linear;
+  width: 55px;
+  height: 55px;
+  margin-left: 30px;
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media(max-width: 1500px) {
+  .main-content {
+    width: calc(100% - 800px);
+    transform: translateX(-150px);
+  }
+}
+@media(max-width: 1300px) {
+  .main-content {
+    width: calc(100% - 475px);
+    transform: translateX(0);
+  }
+}
+@media(max-width: 735px) {
+  .app-logo,
+  header > span {
+    display: none;
+  }
+  header .nav-tabs {
+    float: left;
+    margin: 0 0 0 30px;
+  }
+  .main-content {
+    display: block;
+    width: 90%;
+    float: none;
+  }
+}
